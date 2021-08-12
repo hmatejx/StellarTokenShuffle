@@ -100,12 +100,12 @@ B) Onion Encryption
     broadcasts the final result O''i
 ```
 
-For better understanding of the onion encryption step below an example is shown for *N* = 3. In the below notation  "{*m*}p" means "encrypt message *m* with public key *p*".
+For better understanding of the onion encryption step below an example is shown for *N* = 3. In the below notation  "(*m*)p" means "encrypt message *m* with public key *p*".
 
 ```
-      O''1 = {{{ {{{O1}p3}p2}p1 }r3}r2}r1
-      O''2 = {{{ {{{O2}p3}p2}p1 }r3}r2}r1
-      O''3 = {{{ {{{O3}p3}p2}p1 }r3}r2}r1
+      O''1 = ((( (((O1)p3)p2)p1 )r3)r2)r1
+      O''2 = ((( (((O2)p3)p2)p1 )r3)r2)r1
+      O''3 = ((( (((O3)p3)p2)p1 )r3)r2)r1
 ```
 
 ```
